@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights (too large for git)
+*.pth
+
+# Large checkpoint (outputs/results.csv and PNGs are still tracked)
+outputs/checkpoint.pt
+
+# Claude Code tooling
+.claude/
+
+# OS noise
+.DS_Store
+Thumbs.db
